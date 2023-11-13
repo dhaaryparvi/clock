@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins',sans-serif;
+  box-sizing: border-box;
+}
+.count{
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(45deg,#08001f,#30197d);
+  color: #fff;
+  position: relative;
+}
+
+
+
+
+
+
+body{
+  margin: 0%;
+  padding: 0%;
+  background-color: black;
+}
+.time {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #fff;
+  font-weight: bold;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 70px;
+}
+
+#hours{
+  width: 92px;
+  height: 92px;
+  background-color: red;
+}
+
+@media screen and(max-width:80px) {
+  .time {
+   
+    font-size: 12px;
+    line-height: 0px;
+  }
+}
